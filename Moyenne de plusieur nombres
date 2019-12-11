@@ -9,7 +9,7 @@ Début
 	Repeter
 		écrire  "Entrez autre nombre"
 		lire  M 
-		N <-- N + M)
+		N <-- N + M
 		P <-- P + 1 
 		écrire  "Souhaitez vous ajouter un autre nombre ? (Oui/Non) "
 		lire  Q
