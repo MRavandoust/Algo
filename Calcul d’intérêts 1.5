@@ -1,4 +1,4 @@
-Réel S, S1, i, B
+Réel S , V1, v2, i, B
 Entier N, m 
 
 Début
@@ -8,13 +8,12 @@ Début
 		écrire "Entrez le taux d'intérêt"
 		lire i
 		écrire "Saisir le nombre des années"
-		S <-- S*(1 + N*i)
-	B <-- s
+		V1 <-- S*(1 + N*i)
 	Pour m = 1 à N
-		S1 <-- B*(1 + i)
-		B <-- S1
+		V2 <-- S*(1 + i)
+		S  <-- V2
 	Fin Pour
-		écrire "La somme acquis par la première formule est le" S
+		écrire "La somme acquis par la première formule est le" V1
 		écrire "La somme acquis par la deuxième formule est le" S1
 	
 Fin
