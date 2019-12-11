@@ -1,5 +1,5 @@
 Réel S , V1, v2, i
-Entier N, m 
+Entier N, j 
 
 Début
 
@@ -8,8 +8,9 @@ Début
 		écrire "Entrez le taux d'intérêt"
 		lire i
 		écrire "Saisir le nombre des années"
+		lire N
 		V1 <-- S*(1 + N*i)
-	Pour m = 1 à N
+	Pour j = 1 à N
 		V2 <-- S*(1 + i)
 		S  <-- V2
 	Fin Pour
