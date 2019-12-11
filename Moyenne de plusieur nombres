@@ -17,7 +17,7 @@ Début
 		Q = Non
 		
 		R <-- N/P
-		écrire : "La moyenne est le 'R'"
+		écrire "La moyenne est le 'R'"
 		
 
 Fin 
