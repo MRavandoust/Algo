@@ -1,4 +1,4 @@
-Entier N, M, P <-- 1;
+Entier N, M, P <-- 1
 Réel R
 Chaine Q 
 
@@ -17,7 +17,7 @@ Début
 		Q = Non
 		
 		R <-- N/P
-		écrire "La moyenne est le 'R'"
+		écrire "La moyenne est le" R
 		
 
 Fin 
