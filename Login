@@ -1,0 +1,22 @@
+entier compteur
+chaine Login, PWD
+
+Début
+  lire Login
+  lire PWD
+  si ! Login ou !PWD alors
+      écrire "Il faut entrer tour les informations"
+  fin si
+  
+  Tant que (compteur <=3)
+      si Login == identifiant
+          si PWD == mot de pass
+              login succès
+          sinon
+              écrire "mot de pass est incorect"
+          finsi
+      sinon
+          écrire "Login est incorrect"
+          compteur +=1
+      finsi
+  fin Tant que
