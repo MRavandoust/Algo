@@ -20,3 +20,4 @@ Début
           compteur +=1
       finsi
   fin Tant que
+Fin
