@@ -1,9 +1,9 @@
 entier r, n, L
 
 Début
-  Faire
     écrire "Entre le nombre"
     lire n
+  Faire
     r <-- n%2
     L <-- Push (r)
     n <-- (n - r)/2
