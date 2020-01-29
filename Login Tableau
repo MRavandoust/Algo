@@ -1,0 +1,18 @@
+chaine id, mdp
+
+Début
+  lire id
+  lire mdp
+  
+      si Login == identifiant
+          si PWD == mot de pass
+              login succès
+          sinon
+              écrire "mot de pass est incorect"
+          finsi
+      sinon
+          écrire "Login est incorrect"
+          compteur +=1
+      finsi
+  fin Tant que
+Fin
